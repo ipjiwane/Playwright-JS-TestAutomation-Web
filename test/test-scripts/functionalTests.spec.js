@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const { LoginPage } = require('../pages/LoginPage');
+const { LoginPage } = require('../pages/LoginPage')
 // const HomePage = require('../pages/HomePage');
 const logger = require('../utils/logger')
 
@@ -29,7 +29,8 @@ test.only('Verify Valid login', async ({ page }) => {
     // Login to the application with valid credentials
     logger.info("Login to the application with valid credentials");
     const loginPage = new LoginPage(page);
-    const homePage = await loginPage.login('admin@admin.com', '2020');
+    // const homePage = await loginPage.login('admin@admin.com', '2020');
+    const homePage = await loginPage.login(process.env.user, process.env.password);
   
     // Verify that the user is redirected to the home page
     logger.info("Verifying Login Success");

@@ -1,4 +1,4 @@
-const { chromium, firefox, webkit, test, expect, devices } = require('@playwright/test');
+const { test, expect } = require('@playwright/test');
 
 const devicesToTest = [
   { name: 'Desktop', viewport: { width: 1280, height: 800 } },
