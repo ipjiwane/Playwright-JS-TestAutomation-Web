@@ -24,12 +24,12 @@ test('Verify application page title', async ({ page }) => {
 test.only('Verify Valid login', async ({ page }) => {
   try {
     logger.info("Navigating to the Login page");
-    await page.goto('http://127.0.0.1:5500/testautomation-web/index.html');
+    await page.goto('/');
   
     // Login to the application with valid credentials
     logger.info("Login to the application with valid credentials");
     const loginPage = new LoginPage(page);
-    const homePage = await loginPage.login('admin@admin.com', '2021');
+    const homePage = await loginPage.login('admin@admin.com', '2020');
   
     // Verify that the user is redirected to the home page
     logger.info("Verifying Login Success");
