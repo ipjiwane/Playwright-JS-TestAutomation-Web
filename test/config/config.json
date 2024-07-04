@@ -1,9 +1,0 @@
-{
-    "baseUrl": "https://example.com",
-    "credentials": {
-      "username": "your_username",
-      "password": "your_password"
-    },
-    "timeout": 15000
-  }
-  
