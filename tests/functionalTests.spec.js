@@ -12,7 +12,7 @@ test('Verify application page title', async ({ page }) => {
     //verify the page title
     logger.info("Verifying the page title");
     await expect(page).toHaveTitle('Single Page Application');
-
+    logger.info('Test Passed');
   } catch (error) {
     logger.error(`Test failed with error: ${error.message}`);
     throw error;
