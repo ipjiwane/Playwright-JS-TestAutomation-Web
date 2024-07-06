@@ -94,6 +94,16 @@ exports.LoginPage = class LoginPage {
         }
     }
 
+    async verifyUserFieldIsPresent(){
+        await expect(this.txtUsername).toBeVisible();
+    }
+    async verifyPasswordFieldIsPresent(){
+        await expect(this.txtPassword).toBeVisible();
+    }
+    async verifyLoginButtonIsPresent(){
+        await expect(this.btnLogin).toBeVisible();
+    }
+
     async verifyShowHidePasswordToggleIsPresent(){
         await expect(this.toggleShowHidePassword).toBeVisible();
     }

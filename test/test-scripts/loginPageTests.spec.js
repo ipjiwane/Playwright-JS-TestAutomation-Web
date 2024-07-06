@@ -14,13 +14,19 @@ test.beforeEach(async ({ page }) => {
 })
 
 // Usability Tests
-test.describe('Login Page Usability Tests', () => {
-  test('Verifying login page loads correctly', async ({ page }) => {
+test.describe.only('Login Page Usability Tests', () => {
+  test.only('TC001: Verify login page loads correctly', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       //verifying the page title
       logger.info("Verifying the page title");
       await loginPage.verifyLoginPageTitle();
+      logger.info('Verifying "User" field is present');
+      await loginPage.verifyUserFieldIsPresent();
+      logger.info('Verifying "Password" field is present');
+      await loginPage.verifyPasswordFieldIsPresent();
+      logger.info('Verifying "Login" button is present');
+      await loginPage.verifyLoginButtonIsPresent();
       logger.info('Test Passed');
     } catch (error) {
       logger.error(`Test failed with error: ${error.message}`);
@@ -28,7 +34,7 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying Valid login', async ({ page }) => {
+  test.only('Verifying Valid login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Login to the application with valid credentials
@@ -45,7 +51,7 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying Invalid login', async ({ page }) => {
+  test.only('Verifying Invalid login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Login to the application with invalid credentials
