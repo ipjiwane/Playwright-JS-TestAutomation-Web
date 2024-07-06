@@ -13,7 +13,13 @@ const logger = createLogger({
   ),
   transports: [
     new transports.Console(),
-    new transports.File({ filename: 'test-log.log' })
+    new transports.File({
+      filename: 'test-log.log',
+      format: combine(
+        timestamp(),
+        logFormat
+      )
+    })
   ]
 });
 
