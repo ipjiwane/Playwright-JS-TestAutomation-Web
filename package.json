@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "npx http-server -p 3000"
+    "start": "npx http-server -p 3000",
+    "allure:generate": "allure generate --clean -o allure-report",
+    "allure:serve": "allure serve allure-report"
   },
   "keywords": [],
   "author": "",
@@ -12,13 +14,14 @@
   "devDependencies": {
     "@playwright/test": "^1.45.1",
     "@types/node": "^20.14.9",
-    "allure-playwright": "^3.0.0-beta.6"
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^3.0.0-beta.6",
+    "playwright": "^1.45.1"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "http-server": "^14.1.1",
-    "playwright": "^1.45.1",
     "winston": "^3.13.0"
   }
 }
