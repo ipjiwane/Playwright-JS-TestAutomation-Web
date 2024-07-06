@@ -1,4 +1,4 @@
-const { test, expect } = require('@playwright/test');
+const { expect } = require('@playwright/test');
 const { HomePage } = require('../pages/HomePage');
 const logger = require('../utils/logger')
 
@@ -25,8 +25,6 @@ exports.LoginPage = class LoginPage {
             const homePage = new HomePage(this.page);
             return homePage;
         } catch (error) {
-            // const screenshotPath = `error-login.png`;
-            // await this.page.screenshot({ path: screenshotPath });
             logger.error(`Issue with Login: ${error.message}`);
             throw error;
         }
@@ -118,5 +116,9 @@ exports.LoginPage = class LoginPage {
 
     async verifyLoginPageTitle(){
         await expect(this.page).toHaveTitle('Single Page Application');
+    }
+
+    async verifyLogoutSuccess() {
+        await expect(this.btnLogin).toBeVisible();
     }
 }

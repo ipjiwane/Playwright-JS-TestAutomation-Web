@@ -14,8 +14,8 @@ test.beforeEach(async ({ page }) => {
 })
 
 // Usability Tests
-test.describe.only('Login Page Usability Tests', () => {
-  test.only('TC001: Verify login page loads correctly', async ({ page }) => {
+test.describe('Login Page Usability Tests', () => {
+  test('TC001: Verify login page loads correctly', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       //verifying the page title
@@ -34,7 +34,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test.only('Verifying Valid login', async ({ page }) => {
+  test('TC002: Verify Valid login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Login to the application with valid credentials
@@ -51,7 +51,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test.only('Verifying Invalid login', async ({ page }) => {
+  test('TC003: Verify Invalid login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Login to the application with invalid credentials
@@ -68,7 +68,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying login with empty "User" and "Password" fields', async ({ page }) => {
+  test('TC004 - Verify login with empty "User" and "Password" fields', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Clicking login button with empty fields
@@ -85,7 +85,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying login with empty "User" field', async ({ page }) => {
+  test('TC005 - Verify login with empty "User" field', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with empty user field
@@ -102,7 +102,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying login with empty "Password" field', async ({ page }) => {
+  test('TC006 - Verify login with empty "Password" field', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with empty password field
@@ -119,7 +119,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying Case sensitivity in login', async ({ page }) => {
+  test('TC007 - Verify Case sensitivity in login', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with correct credentials but different case
@@ -136,7 +136,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying Password masking on Login Page', async ({ page }) => {
+  test('TC008 - Verify Password masking on Login Page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Entering password
@@ -153,7 +153,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying Show/Hide password on Login Page', async ({ page }) => {
+  test('TC009 - Verify Show/Hide password on Login Page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Entering password
@@ -170,7 +170,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying the labels and placeholders of "User" and "Password" fields', async ({ page }) => {
+  test('TC010 - Verify the labels and placeholders of "User" and "Password" fields', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying the login page labels and placeholders
@@ -184,7 +184,7 @@ test.describe.only('Login Page Usability Tests', () => {
 
   });
 
-  test('Verifying the presence of "Forgot password" link', async ({ page }) => {
+  test('TC011 - Verify the presence of "Forgot password" link', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Verifying that "Forgot Password" Link is available on Login Page')
@@ -196,7 +196,7 @@ test.describe.only('Login Page Usability Tests', () => {
     }
   });
 
-  test('Verifying the presence of "Remember Me" checkbox', async ({ page }) => {
+  test('TC012 - Verify the presence of "Remember Me" checkbox', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Verifying that "Remember Me" checkbox is available on Login Page')
@@ -211,7 +211,7 @@ test.describe.only('Login Page Usability Tests', () => {
 
 // Accessibility Tests
 test.describe('Login Page Accessibility Tests', () => {
-  test('Verifying keyboard navigation on login page', async ({ page }) => {
+  test('TC013 - Verify keyboard navigation on login page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying keyboard navigation on login page
@@ -224,7 +224,7 @@ test.describe('Login Page Accessibility Tests', () => {
     }
   });
 
-  test('Verifying screen reader compatibility on login page', async ({ page }) => {
+  test('TC014 - Verify screen reader compatibility on login page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying screen reader compatibility on login page
@@ -241,7 +241,7 @@ test.describe('Login Page Accessibility Tests', () => {
 // Data driven Tests
 test.describe('Data Driven Login Test', () => {
   for (const user of users) {
-    test(`Verifying Valid login for user '${user.email}'`, async ({ page }) => {
+    test(`TC015 - Verify Valid login for user '${user.email}'`, async ({ page }) => {
       const loginPage = new LoginPage(page);
       try {
         // Login to the application with valid credentials
@@ -262,7 +262,7 @@ test.describe('Data Driven Login Test', () => {
 
 // Performance Tests
 test.describe('Login Page Performance Tests', () => {
-  test('Verifying login page load time', async ({ page }) => {
+  test('TC016 - Verify login page load time', async ({ page }) => {
     try {
       const startTime = Date.now();
       await page.goto('/');
@@ -281,7 +281,7 @@ test.describe('Login Page Performance Tests', () => {
 
 // Security Tests
 test.describe('Login Page Security Tests', () => {
-  test('Verifying SQL injection security breach on login page', async ({ page }) => {
+  test('TC017 - Verify SQL injection security breach on login page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Attempting SQL Injection while login')
@@ -297,7 +297,7 @@ test.describe('Login Page Security Tests', () => {
     }
   });
 
-  test('Verifying Brute Force Attack security breach on login page', async ({ page }) => {
+  test('TC018 - Verify Brute Force Attack security breach on login page', async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting to login with invalid credentials multiple times
