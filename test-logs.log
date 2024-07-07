@@ -396,3 +396,2122 @@
 2024-07-07T18:28:13.954Z [info]: Navigating to the Login page
 2024-07-07T18:28:14.794Z [info]: Verifying the performance by checking login page load time
 2024-07-07T18:28:14.799Z [info]: Test Passed
+2024-07-07T21:05:23.320Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:05:23.329Z [info]: Navigating to the Login page
+2024-07-07T21:05:24.496Z [info]: Login to the application with valid credentials
+2024-07-07T21:05:24.930Z [info]: Logout from the application
+2024-07-07T21:05:30.164Z [info]: Verifying Logout Success
+2024-07-07T21:05:30.198Z [info]: Test Passed
+2024-07-07T21:06:23.139Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:06:23.149Z [info]: Navigating to the Login page
+2024-07-07T21:06:33.940Z [info]: Login to the application with valid credentials
+2024-07-07T21:06:34.243Z [info]: Logout from the application
+2024-07-07T21:06:34.438Z [info]: Verifying Logout Success
+2024-07-07T21:06:34.469Z [info]: Test Passed
+2024-07-07T21:30:53.857Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:30:53.869Z [info]: Navigating to the Login page
+2024-07-07T21:30:55.101Z [info]: Login to the application with valid credentials
+2024-07-07T21:30:55.416Z [info]: Logout from the application
+2024-07-07T21:30:55.665Z [info]: Verifying Logout Success
+2024-07-07T21:30:55.703Z [info]: Test Passed
+2024-07-07T21:32:09.641Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:32:09.650Z [info]: Navigating to the Login page
+2024-07-07T21:32:10.870Z [info]: Login to the application with valid credentials
+2024-07-07T21:32:11.154Z [info]: Logout from the application
+2024-07-07T21:32:11.352Z [info]: Verifying Logout Success
+2024-07-07T21:32:11.383Z [info]: Test Passed
+2024-07-07T21:32:51.424Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:32:51.435Z [info]: Navigating to the Login page
+2024-07-07T21:32:52.278Z [info]: Login to the application with valid credentials
+2024-07-07T21:32:52.279Z [info]: Logout from the application
+2024-07-07T21:34:22.661Z [error]: Issue with Logout: locator.click: Test ended.
+Call log:
+  [2m- waiting for locator('#user')[22m
+[2m  -   locator resolved to <section id="user" class="user" onclick="showUser()">…</section>[22m
+[2m  - attempting click action[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #1[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #2[22m
+[2m  -   waiting 20ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #3[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #4[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #5[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #6[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #7[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #8[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #9[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #10[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #11[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #12[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #13[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #14[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #15[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #16[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #17[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #18[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #19[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #20[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #21[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #22[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #23[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #24[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #25[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #26[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #27[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #28[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #29[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #30[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #31[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #32[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #33[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #34[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #35[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #36[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #37[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #38[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #39[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #40[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #41[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #42[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #43[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #44[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #45[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #46[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #47[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #48[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #49[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #50[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #51[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #52[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #53[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #54[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #55[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #56[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #57[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #58[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #59[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #60[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #61[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #62[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #63[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #64[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #65[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #66[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #67[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #68[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #69[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #70[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #71[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #72[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #73[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #74[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #75[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #76[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #77[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #78[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #79[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #80[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #81[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #82[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #83[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #84[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #85[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #86[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #87[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #88[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #89[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #90[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #91[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #92[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #93[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #94[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #95[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #96[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #97[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #98[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #99[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #100[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #101[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #102[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #103[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #104[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #105[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #106[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #107[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #108[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #109[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #110[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #111[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #112[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #113[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #114[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #115[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #116[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #117[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #118[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #119[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #120[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #121[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #122[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #123[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #124[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #125[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #126[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #127[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #128[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #129[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #130[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #131[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #132[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #133[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #134[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #135[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #136[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #137[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #138[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #139[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #140[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #141[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #142[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #143[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #144[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #145[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #146[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #147[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #148[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #149[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #150[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #151[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #152[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #153[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #154[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #155[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #156[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #157[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #158[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #159[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #160[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #161[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #162[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #163[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #164[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #165[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #166[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #167[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #168[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #169[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #170[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #171[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #172[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #173[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #174[22m
+[2m  -   waiting 500ms[22m
+
+2024-07-07T21:34:22.662Z [error]: Test failed with error: locator.click: Test ended.
+Call log:
+  [2m- waiting for locator('#user')[22m
+[2m  -   locator resolved to <section id="user" class="user" onclick="showUser()">…</section>[22m
+[2m  - attempting click action[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #1[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #2[22m
+[2m  -   waiting 20ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #3[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #4[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #5[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #6[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #7[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #8[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #9[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #10[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #11[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #12[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #13[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #14[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #15[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #16[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #17[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #18[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #19[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #20[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #21[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #22[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #23[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #24[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #25[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #26[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #27[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #28[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #29[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #30[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #31[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #32[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #33[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #34[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #35[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #36[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #37[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #38[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #39[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #40[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #41[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #42[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #43[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #44[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #45[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #46[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #47[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #48[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #49[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #50[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #51[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #52[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #53[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #54[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #55[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #56[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #57[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #58[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #59[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #60[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #61[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #62[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #63[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #64[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #65[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #66[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #67[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #68[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #69[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #70[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #71[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #72[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #73[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #74[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #75[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #76[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #77[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #78[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #79[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #80[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #81[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #82[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #83[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #84[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #85[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #86[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #87[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #88[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #89[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #90[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #91[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #92[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #93[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #94[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #95[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #96[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #97[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #98[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #99[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #100[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #101[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #102[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #103[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #104[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #105[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #106[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #107[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #108[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #109[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #110[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #111[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #112[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #113[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #114[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #115[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #116[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #117[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #118[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #119[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #120[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #121[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #122[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #123[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #124[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #125[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #126[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #127[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #128[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #129[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #130[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #131[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #132[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #133[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #134[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #135[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #136[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #137[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #138[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #139[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #140[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #141[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #142[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #143[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #144[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #145[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #146[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #147[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #148[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #149[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #150[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #151[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #152[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #153[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #154[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #155[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #156[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #157[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #158[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #159[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #160[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #161[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #162[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #163[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #164[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #165[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #166[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #167[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #168[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #169[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #170[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #171[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #172[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #173[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #174[22m
+[2m  -   waiting 500ms[22m
+
+2024-07-07T21:34:51.169Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:34:51.178Z [info]: Navigating to the Login page
+2024-07-07T21:34:52.346Z [info]: Login to the application with valid credentials
+2024-07-07T21:34:52.347Z [info]: Logout from the application
+2024-07-07T21:35:20.798Z [error]: Issue with Logout: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('#user')[22m
+[2m  -   locator resolved to <section id="user" class="user" onclick="showUser()">…</section>[22m
+[2m  - attempting click action[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #1[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #2[22m
+[2m  -   waiting 20ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #3[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #4[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #5[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #6[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #7[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #8[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #9[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #10[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #11[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #12[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #13[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #14[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #15[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #16[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #17[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #18[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #19[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #20[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #21[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #22[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #23[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #24[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #25[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #26[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #27[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #28[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #29[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #30[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #31[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #32[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #33[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #34[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #35[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #36[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #37[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #38[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #39[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #40[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #41[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #42[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #43[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #44[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #45[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #46[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #47[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #48[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #49[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #50[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #51[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #52[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #53[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #54[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #55[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #56[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #57[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+
+2024-07-07T21:35:20.799Z [error]: Test failed with error: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  [2m- waiting for locator('#user')[22m
+[2m  -   locator resolved to <section id="user" class="user" onclick="showUser()">…</section>[22m
+[2m  - attempting click action[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #1[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #2[22m
+[2m  -   waiting 20ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #3[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #4[22m
+[2m  -   waiting 100ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #5[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #6[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #7[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #8[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #9[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #10[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #11[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #12[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #13[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #14[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #15[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #16[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #17[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #18[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #19[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #20[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #21[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #22[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #23[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #24[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #25[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #26[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #27[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #28[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #29[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #30[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #31[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #32[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #33[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #34[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #35[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #36[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #37[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #38[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #39[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #40[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #41[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #42[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #43[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #44[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #45[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #46[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #47[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #48[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #49[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #50[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #51[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #52[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #53[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #54[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #55[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #56[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+[2m  -   element is not visible[22m
+[2m  - retrying click action, attempt #57[22m
+[2m  -   waiting 500ms[22m
+[2m  -   waiting for element to be visible, enabled and stable[22m
+
+2024-07-07T21:45:13.512Z [info]: *** Running test : TC001 - Verify the Home page menus ***
+2024-07-07T21:45:13.521Z [info]: Navigating to the Login page
+2024-07-07T21:45:14.214Z [info]: Login to the application with valid credentials
+2024-07-07T21:45:14.427Z [info]: Verifying the home page menu options
+2024-07-07T21:45:14.466Z [error]: Test failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoBeNull[2m()[22m
+
+Received: [31mnull[39m
+2024-07-07T21:45:15.036Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T21:45:15.037Z [info]: Navigating to the Login page
+2024-07-07T21:45:15.848Z [info]: Login to the application with valid credentials
+2024-07-07T21:45:16.088Z [info]: Logout from the application
+2024-07-07T21:45:16.226Z [info]: Verifying Logout Success
+2024-07-07T21:45:16.248Z [info]: Test Passed
+2024-07-07T21:45:16.770Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-07T21:45:16.771Z [info]: Navigating to the Login page
+2024-07-07T21:45:17.461Z [info]: Verifying the page title
+2024-07-07T21:45:17.520Z [info]: Verifying "User" field is present
+2024-07-07T21:45:17.535Z [info]: Verifying "Password" field is present
+2024-07-07T21:45:17.545Z [info]: Verifying "Login" button is present
+2024-07-07T21:45:17.556Z [info]: Test Passed
+2024-07-07T21:45:18.034Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-07T21:45:18.034Z [info]: Navigating to the Login page
+2024-07-07T21:45:18.884Z [info]: Login to the application with valid credentials
+2024-07-07T21:45:19.057Z [info]: Verifying Login Success
+2024-07-07T21:45:19.067Z [info]: Login Success
+2024-07-07T21:45:19.068Z [info]: Test Passed
+2024-07-07T21:45:19.507Z [info]: *** Running test : TC003: Verify Invalid login ***
+2024-07-07T21:45:19.507Z [info]: Navigating to the Login page
+2024-07-07T21:45:20.202Z [info]: Login to the application with invalid credentials
+2024-07-07T21:45:20.388Z [info]: Verifying error message for invalid credentials
+2024-07-07T21:45:25.406Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:45:26.569Z [info]: *** Running test : TC004 - Verify login with empty "User" and "Password" fields ***
+2024-07-07T21:45:26.569Z [info]: Navigating to the Login page
+2024-07-07T21:45:27.335Z [info]: Clicking login button with empty fields
+2024-07-07T21:45:27.461Z [info]: Verifying error message for empty fields
+2024-07-07T21:45:32.475Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter username and password"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:45:33.594Z [info]: *** Running test : TC005 - Verify login with empty "User" field ***
+2024-07-07T21:45:33.595Z [info]: Navigating to the Login page
+2024-07-07T21:45:34.314Z [info]: Clicking login button with empty user field
+2024-07-07T21:45:34.521Z [info]: Verifying error message for empty user field
+2024-07-07T21:45:39.544Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter User"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:45:40.701Z [info]: *** Running test : TC006 - Verify login with empty "Password" field ***
+2024-07-07T21:45:40.701Z [info]: Navigating to the Login page
+2024-07-07T21:45:41.427Z [info]: Clicking login button with empty password field
+2024-07-07T21:45:41.639Z [info]: Verifying error message for empty password field
+2024-07-07T21:45:46.659Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter Password"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:45:47.903Z [info]: *** Running test : TC007 - Verify Case sensitivity in login ***
+2024-07-07T21:45:47.904Z [info]: Navigating to the Login page
+2024-07-07T21:45:48.657Z [info]: Attempting login with correct credentials but different case
+2024-07-07T21:45:48.853Z [info]: Verifying error message for invalid credentials
+2024-07-07T21:45:53.874Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:45:55.085Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-07T21:45:55.085Z [info]: Navigating to the Login page
+2024-07-07T21:45:55.945Z [info]: Entering Password
+2024-07-07T21:45:56.041Z [info]: Verifying that the password is masked
+2024-07-07T21:45:56.044Z [info]: Test Passed
+2024-07-07T21:45:56.551Z [info]: *** Running test : TC009 - Verify Show/Hide password on Login Page ***
+2024-07-07T21:45:56.551Z [info]: Navigating to the Login page
+2024-07-07T21:45:57.280Z [info]: Entering Password
+2024-07-07T21:45:57.367Z [info]: Verifying that show/hide password toggle is present
+2024-07-07T21:45:57.372Z [info]: Test Passed
+2024-07-07T21:45:57.921Z [info]: *** Running test : TC010 - Verify the labels and placeholders of "User" and "Password" fields ***
+2024-07-07T21:45:57.922Z [info]: Navigating to the Login page
+2024-07-07T21:45:58.620Z [info]: Verifying the login page labels and placeholders
+2024-07-07T21:45:58.734Z [error]: Encountered error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Password"[39m
+Received: [31mnull[39m
+2024-07-07T21:45:58.734Z [error]: Test failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Password"[39m
+Received: [31mnull[39m
+2024-07-07T21:45:59.222Z [info]: *** Running test : TC011 - Verify the presence of "Forgot password" link ***
+2024-07-07T21:45:59.222Z [info]: Navigating to the Login page
+2024-07-07T21:45:59.935Z [info]: Verifying that "Forgot Password" Link is available on Login Page
+2024-07-07T21:46:04.945Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('#forgot_password_link')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 5000ms[22m
+[2m  - waiting for locator('#forgot_password_link')[22m
+
+2024-07-07T21:46:05.438Z [info]: *** Running test : TC012 - Verify the presence of "Remember Me" checkbox ***
+2024-07-07T21:46:05.438Z [info]: Navigating to the Login page
+2024-07-07T21:46:06.195Z [info]: Verifying that "Remember Me" checkbox is available on Login Page
+2024-07-07T21:46:11.206Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('input[name="rememberMe"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="rememberMe"]')[22m
+
+2024-07-07T21:46:11.678Z [info]: *** Running test : TC013 - Verify keyboard navigation on login page ***
+2024-07-07T21:46:11.678Z [info]: Navigating to the Login page
+2024-07-07T21:46:12.438Z [info]: Verifying keyboard navigation on login page
+2024-07-07T21:46:12.696Z [info]: Test Passed
+2024-07-07T21:46:13.072Z [info]: *** Running test : TC014 - Verify screen reader compatibility on login page ***
+2024-07-07T21:46:13.073Z [info]: Navigating to the Login page
+2024-07-07T21:46:13.919Z [info]: Verifying screen reader compatibility on login page
+2024-07-07T21:46:13.920Z [info]: Checking ARIA related labels and roles to check screen reader compatibility
+2024-07-07T21:46:18.939Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: getByPlaceholder('E-mail address')
+Expected string: [32m"Email"[39m
+Received string: [31m""[39m
+Call log:
+  [2m- expect.toHaveAttribute with timeout 5000ms[22m
+[2m  - waiting for getByPlaceholder('E-mail address')[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+
+2024-07-07T21:46:19.420Z [info]: *** Running test : TC015 - Verify Valid login for user 'admin@admin.com' ***
+2024-07-07T21:46:19.420Z [info]: Navigating to the Login page
+2024-07-07T21:46:20.106Z [info]: Login to the application with valid credentials
+2024-07-07T21:46:20.325Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T21:46:20.338Z [info]: Login Success
+2024-07-07T21:46:20.339Z [info]: Test Passed
+2024-07-07T21:46:20.715Z [info]: *** Running test : TC015 - Verify Valid login for user 'biancunha@gmail.com' ***
+2024-07-07T21:46:20.715Z [info]: Navigating to the Login page
+2024-07-07T21:46:21.421Z [info]: Login to the application with valid credentials
+2024-07-07T21:46:21.632Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T21:46:21.648Z [info]: Login Success
+2024-07-07T21:46:21.649Z [info]: Test Passed
+2024-07-07T21:46:22.063Z [info]: *** Running test : TC015 - Verify Valid login for user 'growdev@growdev.com.br' ***
+2024-07-07T21:46:22.064Z [info]: Navigating to the Login page
+2024-07-07T21:46:22.779Z [info]: Login to the application with valid credentials
+2024-07-07T21:46:22.998Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T21:46:23.018Z [info]: Login Success
+2024-07-07T21:46:23.020Z [info]: Test Passed
+2024-07-07T21:46:23.431Z [info]: *** Running test : TC016 - Verify login page load time ***
+2024-07-07T21:46:23.432Z [info]: Navigating to the Login page
+2024-07-07T21:46:24.233Z [info]: Verifying the performance by checking login page load time
+2024-07-07T21:46:24.237Z [info]: Test Passed
+2024-07-07T21:46:24.751Z [info]: *** Running test : TC017 - Verify SQL injection security breach on login page ***
+2024-07-07T21:46:24.751Z [info]: Navigating to the Login page
+2024-07-07T21:46:25.462Z [info]: Attempting SQL Injection while login
+2024-07-07T21:46:25.648Z [info]: Verifying that an error message is displayed
+2024-07-07T21:46:30.665Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-07T21:46:31.911Z [info]: *** Running test : TC018 - Verify Brute Force Attack security breach on login page ***
+2024-07-07T21:46:31.911Z [info]: Navigating to the Login page
+2024-07-07T21:46:32.663Z [info]: Attempting to login with invalid credentials multiple times
+2024-07-07T21:46:43.345Z [info]: Verifying that an error message is displayed
+2024-07-07T21:46:48.361Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Multiple failed login attempts. Your account has been locked"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+

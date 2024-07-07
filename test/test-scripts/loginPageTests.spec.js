@@ -3,6 +3,7 @@ const logger = require('../utils/logger')
 const users = require('../test-data/users.json');
 const { LoginPage } = require('../page-objects/LoginPage');
 const { HomePage } = require('../page-objects/HomePage');
+const { ENVIRONMENT } = require('../config/environment');
 
 test.beforeEach(async ({ page }, testInfo) => {
   try {
@@ -45,7 +46,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Login to the application with valid credentials
       logger.info("Login to the application with valid credentials");
-      await loginPage.login(process.env.email, process.env.password);
+      await loginPage.login(ENVIRONMENT.username, ENVIRONMENT.password);
       // Verify that the user is redirected to the home page
       logger.info("Verifying Login Success");
       await homePage.verifyLoginSuccess();
@@ -56,7 +57,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC003: Verify Invalid login', {
+  test.fail('TC003: Verify Invalid login', {
     tag: ['@regression', '@smoke'],
     annotation: {
       type: 'issue',
@@ -67,7 +68,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Login to the application with invalid credentials
       logger.info("Login to the application with invalid credentials");
-      await loginPage.login(process.env.invalidEmail, process.env.invalidPassword);
+      await loginPage.login(ENVIRONMENT.invalidUsername, ENVIRONMENT.invalidPassword);
 
       // Verifying error message for invalid credentials
       logger.info("Verifying error message for invalid credentials");
@@ -79,7 +80,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC004 - Verify login with empty "User" and "Password" fields', {
+  test.fail('TC004 - Verify login with empty "User" and "Password" fields', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -102,7 +103,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC005 - Verify login with empty "User" field', {
+  test.fail('TC005 - Verify login with empty "User" field', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -113,7 +114,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Attempting login with empty user field
       logger.info("Clicking login button with empty user field");
-      await loginPage.login('', process.env.password)
+      await loginPage.login('', ENVIRONMENT.password)
 
       // Verifying error message for empty user field
       logger.info("Verifying error message for empty user field");
@@ -125,7 +126,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC006 - Verify login with empty "Password" field', {
+  test.fail('TC006 - Verify login with empty "Password" field', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -136,7 +137,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Attempting login with empty password field
       logger.info("Clicking login button with empty password field");
-      await loginPage.login(process.env.email, '')
+      await loginPage.login(ENVIRONMENT.username, '')
 
       // Verifying error message for empty password field
       logger.info("Verifying error message for empty password field");
@@ -148,7 +149,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC007 - Verify Case sensitivity in login', {
+  test.fail('TC007 - Verify Case sensitivity in login', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -159,7 +160,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Attempting login with correct credentials but different case
       logger.info("Attempting login with correct credentials but different case");
-      await loginPage.login(process.env.email.toUpperCase(), process.env.password.toUpperCase());
+      await loginPage.login(ENVIRONMENT.username.toUpperCase(), ENVIRONMENT.password.toUpperCase());
 
       // Verifying error message for invalid credentials
       logger.info("Verifying error message for invalid credentials");
@@ -190,7 +191,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC009 - Verify Show/Hide password on Login Page', {
+  test.fail('TC009 - Verify Show/Hide password on Login Page', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -213,7 +214,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC010 - Verify the labels and placeholders of "User" and "Password" fields', {
+  test.fail('TC010 - Verify the labels and placeholders of "User" and "Password" fields', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -233,7 +234,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
 
   });
 
-  test.fixme('TC011 - Verify the presence of "Forgot password" link', {
+  test.fail('TC011 - Verify the presence of "Forgot password" link', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -251,7 +252,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC012 - Verify the presence of "Remember Me" checkbox', {
+  test.fail('TC012 - Verify the presence of "Remember Me" checkbox', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -286,7 +287,7 @@ test.describe('@accessibility: Login Page Accessibility Tests', () => {
     }
   });
 
-  test.fixme('TC014 - Verify screen reader compatibility on login page', {
+  test.fail('TC014 - Verify screen reader compatibility on login page', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -351,7 +352,7 @@ test.describe('@performance: Login Page Performance Tests', () => {
 });
 
 test.describe('@security: Login Page Security Tests', () => {
-  test.fixme('TC017 - Verify SQL injection security breach on login page', {
+  test.fail('TC017 - Verify SQL injection security breach on login page', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -373,7 +374,7 @@ test.describe('@security: Login Page Security Tests', () => {
     }
   });
 
-  test.fixme('TC018 - Verify Brute Force Attack security breach on login page', {
+  test.fail('TC018 - Verify Brute Force Attack security breach on login page', {
     tag: ['@regression'],
     annotation: {
       type: 'issue',
@@ -387,7 +388,7 @@ test.describe('@security: Login Page Security Tests', () => {
 
       const loginAttemps = 5;
       for (let i = 0; i < loginAttemps; i++) {
-        await loginPage.login(process.env.invalidEmail, process.env.invalidPassword);
+        await loginPage.login(ENVIRONMENT.invalidUsername, ENVIRONMENT.invalidPassword);
         await page.waitForTimeout(2000);
       }
 

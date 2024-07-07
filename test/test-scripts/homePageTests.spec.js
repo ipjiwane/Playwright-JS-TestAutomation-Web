@@ -1,7 +1,8 @@
 const { test } = require('@playwright/test');
-const logger = require('../utils/logger')
-const { LoginPage } = require('../page-objects/LoginPage')
-const { HomePage } = require('../page-objects/HomePage')
+const logger = require('../utils/logger');
+const { LoginPage } = require('../page-objects/LoginPage');
+const { HomePage } = require('../page-objects/HomePage');
+const { ENVIRONMENT } = require('../config/environment');
 
 test.beforeEach(async ({ page }, testInfo) => {
   try {
@@ -14,7 +15,7 @@ test.beforeEach(async ({ page }, testInfo) => {
   }
 })
 
-test.fixme('TC001 - Verify the Home page menus', {
+test.fail('TC001 - Verify the Home page menus', {
   tag: ['@regression', '@smoke'],
   annotation: {
     type: 'issue',
@@ -26,7 +27,7 @@ test.fixme('TC001 - Verify the Home page menus', {
   try {
     // Login to the application with valid credentials
     logger.info("Login to the application with valid credentials");
-    await loginPage.login(process.env.email, process.env.password);
+    await loginPage.login(ENVIRONMENT.username, ENVIRONMENT.password);
 
     // Verifying the home page menu options
     logger.info('Verifying the home page menu options')
@@ -48,7 +49,7 @@ test('TC002 - Verify Logout functionality', {
     try {
       // Login to the application with valid credentials
       logger.info('Login to the application with valid credentials')
-      await loginPage.login(process.env.email, process.env.password);
+      await loginPage.login(ENVIRONMENT.username, ENVIRONMENT.password);
 
       // Logout from the application
       logger.info('Logout from the application')

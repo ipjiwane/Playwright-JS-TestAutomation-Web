@@ -5,11 +5,11 @@ exports.LoginPage = class LoginPage {
 
     constructor(page) {
         this.page = page;
-        this.txtUsername = page.locator('input[name="email"]');
-        this.txtPassword = page.locator('input[name="password"]');
-        this.lblUsername = page.locator('label[for="email"]');
-        this.lblPassword = page.locator('label[for="password"]');
-        this.btnLogin = page.locator('input[id="login"]');
+        this.txtUsername = page.getByPlaceholder('E-mail address')
+        this.txtPassword = page.getByLabel('Password')
+        this.lblUsername = page.getByText('User')
+        this.lblPassword = page.getByText('Password')
+        this.btnLogin = page.getByRole('button', { name: 'LOGIN' })
         this.error = page.locator('div[id="error"]');
         this.lnkforgotPassword = page.locator('#forgot_password_link');
         this.chkRememberMe = page.locator('input[name="rememberMe"]');

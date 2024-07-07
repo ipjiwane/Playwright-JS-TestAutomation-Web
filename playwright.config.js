@@ -17,8 +17,6 @@ if (!process.env.ENV){
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  //test timeout
-  timeout: 5 * 60 * 1000,
   
   testDir: './test/test-scripts',
 

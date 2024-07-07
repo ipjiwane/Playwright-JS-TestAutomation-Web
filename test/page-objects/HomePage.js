@@ -5,11 +5,11 @@ exports.HomePage = class HomePage {
     
     constructor(page) {
         this.page = page;
-        this.menuHome = page.locator('.home');
-        this.menuProducts = page.locator('.products');
-        this.menuContact = page.locator('.contact');
+        this.menuHome = page.getByText('Home');
+        this.menuProducts = page.getByText('Products');
+        this.menuContact = page.getByText('Contact')
         this.menuUser = page.locator('#user');
-        this.lnklogout = page.locator('#logout');
+        this.lnklogout = page.getByText('Sign Out')
     }
 
     async verifyLoginSuccess() {
@@ -38,7 +38,6 @@ exports.HomePage = class HomePage {
         try {
             await this.menuUser.click();
             await this.lnklogout.click();
-            await this.page.waitForTimeout(5000);
         } catch (error) {
             logger.error(`Issue with Logout: ${error.message}`);
             throw error;
