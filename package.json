@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx http-server -p 3000",
+    "test": "npx playwright test",
     "allure:generate": "allure generate --clean -o allure-report",
     "allure:serve": "allure serve allure-report"
   },
@@ -15,8 +16,7 @@
     "@playwright/test": "^1.45.1",
     "@types/node": "^20.14.9",
     "allure-commandline": "^2.29.0",
-    "allure-playwright": "^3.0.0-beta.6",
-    "playwright": "^1.45.1"
+    "allure-playwright": "^3.0.0-beta.6"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

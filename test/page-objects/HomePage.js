@@ -1,6 +1,6 @@
 const { expect } = require('@playwright/test');
 const logger = require('../utils/logger');
-const { LoginPage } = require('../pages/LoginPage');
+const { LoginPage } = require('./LoginPage');
 
 exports.HomePage = class HomePage {
     
