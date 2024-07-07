@@ -179,7 +179,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Entering password
       logger.info("Entering Password");
-      await loginPage.enterPassword(process.env.password);
+      await loginPage.enterPassword(ENVIRONMENT.password);
 
       // Verifying that the password is masked
       logger.info("Verifying that the password is masked");
