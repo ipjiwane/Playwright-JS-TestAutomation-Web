@@ -1,5 +1,5 @@
 const { test, expect } = require('@playwright/test');
-const logger = require('../utils/logger')
+const logger = require('../utils/logger');
 const users = require('../test-data/users.json');
 const { LoginPage } = require('../page-objects/LoginPage');
 const { HomePage } = require('../page-objects/HomePage');

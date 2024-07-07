@@ -4,6 +4,5 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 test-logs.log
-/test/config/
 /allure-report/
 /allure-results/
