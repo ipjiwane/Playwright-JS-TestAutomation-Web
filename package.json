@@ -5,8 +5,8 @@
   "scripts": {
     "start": "npx http-server -p 3000",
     "test": "npx playwright test",
-    "allure:generate": "allure generate --clean -o allure-report",
-    "allure:serve": "allure serve allure-report"
+    "allure:generate": "npx allure generate allure-results -o allure-report --clean",
+    "allure:serve": "npx allure open allure-report"
   },
   "keywords": [],
   "author": "",

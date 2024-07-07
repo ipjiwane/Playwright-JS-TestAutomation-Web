@@ -7,4 +7,3 @@ test-log.log
 /test/config/
 /allure-report/
 /allure-results/
-/test/demo-todo-app.spec.js

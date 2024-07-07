@@ -1,6 +1,6 @@
 # User Stories for Home Page Feature
 
-## User Story 001
+## User Story 007
 **Title:** Home Page Menus Functionality
 
 **Description:** As a user, I want to navigate to the Home, Products, and Contact sections using the menu options on the home page.
@@ -12,7 +12,7 @@
 
 ---
 
-## User Story 002
+## User Story 008
 **Title:** Logout Functionality
 
 **Description:** As a user, I want to be able to logout from the application and be redirected to the login page.

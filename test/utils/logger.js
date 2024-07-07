@@ -14,7 +14,7 @@ const logger = createLogger({
   transports: [
     new transports.Console(),
     new transports.File({
-      filename: 'test-log.log',
+      filename: 'test-logs.log',
       format: combine(
         timestamp(),
         logFormat

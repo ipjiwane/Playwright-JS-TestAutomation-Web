@@ -1,0 +1,398 @@
+2024-07-07T17:52:07.237Z [info]: Navigating to the Login page
+2024-07-07T17:52:08.513Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:08.774Z [info]: Logout from the application
+2024-07-07T17:52:13.963Z [info]: Verifying Logout Success
+2024-07-07T17:52:13.990Z [info]: Test Passed
+2024-07-07T17:52:15.430Z [info]: Navigating to the Login page
+2024-07-07T17:52:16.176Z [info]: Verifying the page title
+2024-07-07T17:52:16.253Z [info]: Verifying "User" field is present
+2024-07-07T17:52:16.268Z [info]: Verifying "Password" field is present
+2024-07-07T17:52:16.285Z [info]: Verifying "Login" button is present
+2024-07-07T17:52:16.301Z [info]: Test Passed
+2024-07-07T17:52:16.942Z [info]: Navigating to the Login page
+2024-07-07T17:52:17.707Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:17.924Z [info]: Verifying Login Success
+2024-07-07T17:52:17.940Z [info]: Login Success
+2024-07-07T17:52:17.941Z [info]: Test Passed
+2024-07-07T17:52:18.358Z [info]: Navigating to the Login page
+2024-07-07T17:52:19.065Z [info]: Entering Password
+2024-07-07T17:52:19.162Z [info]: Verifying that the password is masked
+2024-07-07T17:52:19.167Z [info]: Test Passed
+2024-07-07T17:52:19.722Z [info]: Navigating to the Login page
+2024-07-07T17:52:20.793Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:52:21.275Z [info]: Test Passed
+2024-07-07T17:52:21.843Z [info]: Navigating to the Login page
+2024-07-07T17:52:22.554Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:22.808Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:22.828Z [info]: Login Success
+2024-07-07T17:52:22.828Z [info]: Test Passed
+2024-07-07T17:52:23.224Z [info]: Navigating to the Login page
+2024-07-07T17:52:23.906Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:24.124Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:24.146Z [info]: Login Success
+2024-07-07T17:52:24.147Z [info]: Test Passed
+2024-07-07T17:52:24.527Z [info]: Navigating to the Login page
+2024-07-07T17:52:25.216Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:25.404Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:25.416Z [info]: Login Success
+2024-07-07T17:52:25.416Z [info]: Test Passed
+2024-07-07T17:52:25.792Z [info]: Navigating to the Login page
+2024-07-07T17:52:26.550Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:52:26.554Z [info]: Test Passed
+2024-07-07T17:52:29.690Z [info]: Navigating to the Login page
+2024-07-07T17:52:30.458Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:31.221Z [info]: Logout from the application
+2024-07-07T17:52:37.013Z [info]: Verifying Logout Success
+2024-07-07T17:52:37.057Z [info]: Test Passed
+2024-07-07T17:52:38.244Z [info]: Navigating to the Login page
+2024-07-07T17:52:38.796Z [info]: Verifying the page title
+2024-07-07T17:52:38.946Z [info]: Verifying "User" field is present
+2024-07-07T17:52:38.990Z [info]: Verifying "Password" field is present
+2024-07-07T17:52:39.003Z [info]: Verifying "Login" button is present
+2024-07-07T17:52:39.017Z [info]: Test Passed
+2024-07-07T17:52:40.545Z [info]: Navigating to the Login page
+2024-07-07T17:52:41.250Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:41.898Z [info]: Verifying Login Success
+2024-07-07T17:52:41.991Z [info]: Login Success
+2024-07-07T17:52:41.992Z [info]: Test Passed
+2024-07-07T17:52:42.850Z [info]: Navigating to the Login page
+2024-07-07T17:52:43.374Z [info]: Entering Password
+2024-07-07T17:52:43.543Z [info]: Verifying that the password is masked
+2024-07-07T17:52:43.545Z [info]: Test Passed
+2024-07-07T17:52:44.608Z [info]: Navigating to the Login page
+2024-07-07T17:52:45.270Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:52:46.618Z [info]: Test Passed
+2024-07-07T17:52:47.447Z [info]: Navigating to the Login page
+2024-07-07T17:52:47.959Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:48.682Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:48.774Z [info]: Login Success
+2024-07-07T17:52:48.774Z [info]: Test Passed
+2024-07-07T17:52:49.768Z [info]: Navigating to the Login page
+2024-07-07T17:52:50.653Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:52.464Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:52.557Z [info]: Login Success
+2024-07-07T17:52:52.558Z [info]: Test Passed
+2024-07-07T17:52:53.768Z [info]: Navigating to the Login page
+2024-07-07T17:52:54.308Z [info]: Login to the application with valid credentials
+2024-07-07T17:52:55.169Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:52:55.266Z [info]: Login Success
+2024-07-07T17:52:55.267Z [info]: Test Passed
+2024-07-07T17:52:56.699Z [info]: Navigating to the Login page
+2024-07-07T17:52:57.503Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:52:57.508Z [info]: Test Passed
+2024-07-07T17:53:00.885Z [info]: Navigating to the Login page
+2024-07-07T17:53:01.765Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:02.037Z [info]: Logout from the application
+2024-07-07T17:53:07.271Z [info]: Verifying Logout Success
+2024-07-07T17:53:07.294Z [info]: Test Passed
+2024-07-07T17:53:08.991Z [info]: Navigating to the Login page
+2024-07-07T17:53:09.775Z [info]: Verifying the page title
+2024-07-07T17:53:09.843Z [info]: Verifying "User" field is present
+2024-07-07T17:53:09.858Z [info]: Verifying "Password" field is present
+2024-07-07T17:53:09.871Z [info]: Verifying "Login" button is present
+2024-07-07T17:53:09.885Z [info]: Test Passed
+2024-07-07T17:53:10.714Z [info]: Navigating to the Login page
+2024-07-07T17:53:11.418Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:11.624Z [info]: Verifying Login Success
+2024-07-07T17:53:11.646Z [info]: Login Success
+2024-07-07T17:53:11.648Z [info]: Test Passed
+2024-07-07T17:53:12.286Z [info]: Navigating to the Login page
+2024-07-07T17:53:12.957Z [info]: Entering Password
+2024-07-07T17:53:13.034Z [info]: Verifying that the password is masked
+2024-07-07T17:53:13.037Z [info]: Test Passed
+2024-07-07T17:53:13.875Z [info]: Navigating to the Login page
+2024-07-07T17:53:14.565Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:53:14.822Z [info]: Test Passed
+2024-07-07T17:53:15.370Z [info]: Navigating to the Login page
+2024-07-07T17:53:16.044Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:16.208Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:16.221Z [info]: Login Success
+2024-07-07T17:53:16.221Z [info]: Test Passed
+2024-07-07T17:53:16.731Z [info]: Navigating to the Login page
+2024-07-07T17:53:17.324Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:17.495Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:17.511Z [info]: Login Success
+2024-07-07T17:53:17.511Z [info]: Test Passed
+2024-07-07T17:53:18.040Z [info]: Navigating to the Login page
+2024-07-07T17:53:18.754Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:18.937Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:18.953Z [info]: Login Success
+2024-07-07T17:53:18.953Z [info]: Test Passed
+2024-07-07T17:53:19.463Z [info]: Navigating to the Login page
+2024-07-07T17:53:20.189Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:53:20.193Z [info]: Test Passed
+2024-07-07T17:53:23.378Z [info]: Navigating to the Login page
+2024-07-07T17:53:23.901Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:24.600Z [info]: Logout from the application
+2024-07-07T17:53:30.613Z [info]: Verifying Logout Success
+2024-07-07T17:53:30.657Z [info]: Test Passed
+2024-07-07T17:53:31.472Z [info]: Navigating to the Login page
+2024-07-07T17:53:32.028Z [info]: Verifying the page title
+2024-07-07T17:53:32.191Z [info]: Verifying "User" field is present
+2024-07-07T17:53:32.202Z [info]: Verifying "Password" field is present
+2024-07-07T17:53:32.238Z [info]: Verifying "Login" button is present
+2024-07-07T17:53:32.251Z [info]: Test Passed
+2024-07-07T17:53:33.066Z [info]: Navigating to the Login page
+2024-07-07T17:53:33.614Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:34.173Z [info]: Verifying Login Success
+2024-07-07T17:53:34.241Z [info]: Login Success
+2024-07-07T17:53:34.242Z [info]: Test Passed
+2024-07-07T17:53:35.033Z [info]: Navigating to the Login page
+2024-07-07T17:53:35.736Z [info]: Entering Password
+2024-07-07T17:53:36.122Z [info]: Verifying that the password is masked
+2024-07-07T17:53:36.125Z [info]: Test Passed
+2024-07-07T17:53:36.905Z [info]: Navigating to the Login page
+2024-07-07T17:53:37.439Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:53:38.279Z [info]: Test Passed
+2024-07-07T17:53:39.151Z [info]: Navigating to the Login page
+2024-07-07T17:53:39.642Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:40.473Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:40.643Z [info]: Login Success
+2024-07-07T17:53:40.643Z [info]: Test Passed
+2024-07-07T17:53:41.424Z [info]: Navigating to the Login page
+2024-07-07T17:53:41.924Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:42.391Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:42.476Z [info]: Login Success
+2024-07-07T17:53:42.477Z [info]: Test Passed
+2024-07-07T17:53:43.207Z [info]: Navigating to the Login page
+2024-07-07T17:53:43.730Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:44.429Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:53:44.523Z [info]: Login Success
+2024-07-07T17:53:44.524Z [info]: Test Passed
+2024-07-07T17:53:45.595Z [info]: Navigating to the Login page
+2024-07-07T17:53:46.346Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:53:46.350Z [info]: Test Passed
+2024-07-07T17:53:49.187Z [info]: Navigating to the Login page
+2024-07-07T17:53:49.990Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:50.457Z [info]: Logout from the application
+2024-07-07T17:53:55.664Z [info]: Verifying Logout Success
+2024-07-07T17:53:55.686Z [info]: Test Passed
+2024-07-07T17:53:57.008Z [info]: Navigating to the Login page
+2024-07-07T17:53:57.718Z [info]: Verifying the page title
+2024-07-07T17:53:57.786Z [info]: Verifying "User" field is present
+2024-07-07T17:53:57.804Z [info]: Verifying "Password" field is present
+2024-07-07T17:53:57.814Z [info]: Verifying "Login" button is present
+2024-07-07T17:53:57.834Z [info]: Test Passed
+2024-07-07T17:53:58.286Z [info]: Navigating to the Login page
+2024-07-07T17:53:58.971Z [info]: Login to the application with valid credentials
+2024-07-07T17:53:59.146Z [info]: Verifying Login Success
+2024-07-07T17:53:59.154Z [info]: Login Success
+2024-07-07T17:53:59.155Z [info]: Test Passed
+2024-07-07T17:53:59.509Z [info]: Navigating to the Login page
+2024-07-07T17:54:00.246Z [info]: Entering Password
+2024-07-07T17:54:00.325Z [info]: Verifying that the password is masked
+2024-07-07T17:54:00.332Z [info]: Test Passed
+2024-07-07T17:54:00.898Z [info]: Navigating to the Login page
+2024-07-07T17:54:01.582Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:54:01.887Z [info]: Test Passed
+2024-07-07T17:54:02.321Z [info]: Navigating to the Login page
+2024-07-07T17:54:02.994Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:03.176Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:03.187Z [info]: Login Success
+2024-07-07T17:54:03.188Z [info]: Test Passed
+2024-07-07T17:54:03.561Z [info]: Navigating to the Login page
+2024-07-07T17:54:04.232Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:04.390Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:04.408Z [info]: Login Success
+2024-07-07T17:54:04.408Z [info]: Test Passed
+2024-07-07T17:54:04.797Z [info]: Navigating to the Login page
+2024-07-07T17:54:05.475Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:05.650Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:05.664Z [info]: Login Success
+2024-07-07T17:54:05.664Z [info]: Test Passed
+2024-07-07T17:54:06.060Z [info]: Navigating to the Login page
+2024-07-07T17:54:06.761Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:54:06.768Z [info]: Test Passed
+2024-07-07T17:54:10.308Z [info]: Navigating to the Login page
+2024-07-07T17:54:11.159Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:11.366Z [info]: Logout from the application
+2024-07-07T17:54:16.503Z [info]: Verifying Logout Success
+2024-07-07T17:54:16.524Z [info]: Test Passed
+2024-07-07T17:54:17.707Z [info]: Navigating to the Login page
+2024-07-07T17:54:18.370Z [info]: Verifying the page title
+2024-07-07T17:54:18.433Z [info]: Verifying "User" field is present
+2024-07-07T17:54:18.453Z [info]: Verifying "Password" field is present
+2024-07-07T17:54:18.464Z [info]: Verifying "Login" button is present
+2024-07-07T17:54:18.479Z [info]: Test Passed
+2024-07-07T17:54:18.945Z [info]: Navigating to the Login page
+2024-07-07T17:54:19.633Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:19.831Z [info]: Verifying Login Success
+2024-07-07T17:54:19.853Z [info]: Login Success
+2024-07-07T17:54:19.854Z [info]: Test Passed
+2024-07-07T17:54:20.228Z [info]: Navigating to the Login page
+2024-07-07T17:54:20.913Z [info]: Entering Password
+2024-07-07T17:54:20.982Z [info]: Verifying that the password is masked
+2024-07-07T17:54:20.987Z [info]: Test Passed
+2024-07-07T17:54:21.444Z [info]: Navigating to the Login page
+2024-07-07T17:54:22.134Z [info]: Verifying keyboard navigation on login page
+2024-07-07T17:54:22.391Z [info]: Test Passed
+2024-07-07T17:54:22.766Z [info]: Navigating to the Login page
+2024-07-07T17:54:23.450Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:23.625Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:23.640Z [info]: Login Success
+2024-07-07T17:54:23.641Z [info]: Test Passed
+2024-07-07T17:54:24.021Z [info]: Navigating to the Login page
+2024-07-07T17:54:24.711Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:24.892Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:24.907Z [info]: Login Success
+2024-07-07T17:54:24.908Z [info]: Test Passed
+2024-07-07T17:54:25.284Z [info]: Navigating to the Login page
+2024-07-07T17:54:25.966Z [info]: Login to the application with valid credentials
+2024-07-07T17:54:26.140Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T17:54:26.153Z [info]: Login Success
+2024-07-07T17:54:26.153Z [info]: Test Passed
+2024-07-07T17:54:26.892Z [info]: Navigating to the Login page
+2024-07-07T17:54:27.609Z [info]: Verifying the performance by checking login page load time
+2024-07-07T17:54:27.613Z [info]: Test Passed
+2024-07-07T18:04:23.368Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:04:23.374Z [info]: Navigating to the Login page
+2024-07-07T18:04:24.394Z [info]: Login to the application with valid credentials
+2024-07-07T18:04:24.729Z [info]: Logout from the application
+2024-07-07T18:04:29.918Z [info]: Verifying Logout Success
+2024-07-07T18:04:29.948Z [info]: Test Passed
+2024-07-07T18:04:33.901Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:04:33.910Z [info]: Navigating to the Login page
+2024-07-07T18:04:34.459Z [info]: Login to the application with valid credentials
+2024-07-07T18:04:35.626Z [info]: Logout from the application
+2024-07-07T18:04:41.557Z [info]: Verifying Logout Success
+2024-07-07T18:04:41.608Z [info]: Test Passed
+2024-07-07T18:04:44.977Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:04:44.985Z [info]: Navigating to the Login page
+2024-07-07T18:04:45.825Z [info]: Login to the application with valid credentials
+2024-07-07T18:04:46.115Z [info]: Logout from the application
+2024-07-07T18:04:51.369Z [info]: Verifying Logout Success
+2024-07-07T18:04:51.397Z [info]: Test Passed
+2024-07-07T18:04:55.282Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:04:55.286Z [info]: Navigating to the Login page
+2024-07-07T18:04:55.823Z [info]: Login to the application with valid credentials
+2024-07-07T18:04:56.543Z [info]: Logout from the application
+2024-07-07T18:05:02.124Z [info]: Verifying Logout Success
+2024-07-07T18:05:02.168Z [info]: Test Passed
+2024-07-07T18:05:05.172Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:05:05.184Z [info]: Navigating to the Login page
+2024-07-07T18:05:06.070Z [info]: Login to the application with valid credentials
+2024-07-07T18:05:06.504Z [info]: Logout from the application
+2024-07-07T18:05:11.689Z [info]: Verifying Logout Success
+2024-07-07T18:05:11.811Z [info]: Test Passed
+2024-07-07T18:05:15.960Z [info]: Running test ***TC002 - Verify Logout functionality***
+2024-07-07T18:05:15.966Z [info]: Navigating to the Login page
+2024-07-07T18:05:16.760Z [info]: Login to the application with valid credentials
+2024-07-07T18:05:16.997Z [info]: Logout from the application
+2024-07-07T18:05:22.152Z [info]: Verifying Logout Success
+2024-07-07T18:05:22.172Z [info]: Test Passed
+2024-07-07T18:06:53.473Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T18:06:53.481Z [info]: Navigating to the Login page
+2024-07-07T18:06:55.031Z [info]: Login to the application with valid credentials
+2024-07-07T18:06:55.410Z [info]: Logout from the application
+2024-07-07T18:07:00.756Z [info]: Verifying Logout Success
+2024-07-07T18:07:00.784Z [info]: Test Passed
+2024-07-07T18:09:24.557Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-07T18:09:24.563Z [info]: Navigating to the Login page
+2024-07-07T18:09:25.445Z [info]: Verifying the page title
+2024-07-07T18:09:25.566Z [info]: Verifying "User" field is present
+2024-07-07T18:09:25.583Z [info]: Verifying "Password" field is present
+2024-07-07T18:09:25.600Z [info]: Verifying "Login" button is present
+2024-07-07T18:09:25.613Z [info]: Test Passed
+2024-07-07T18:09:26.200Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-07T18:09:26.201Z [info]: Navigating to the Login page
+2024-07-07T18:09:26.899Z [info]: Login to the application with valid credentials
+2024-07-07T18:09:27.164Z [info]: Verifying Login Success
+2024-07-07T18:09:27.184Z [info]: Login Success
+2024-07-07T18:09:27.185Z [info]: Test Passed
+2024-07-07T18:09:27.672Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-07T18:09:27.673Z [info]: Navigating to the Login page
+2024-07-07T18:09:28.398Z [info]: Entering Password
+2024-07-07T18:09:28.499Z [info]: Verifying that the password is masked
+2024-07-07T18:09:28.503Z [info]: Test Passed
+2024-07-07T18:17:50.357Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-07T18:17:50.368Z [info]: Navigating to the Login page
+2024-07-07T18:17:51.344Z [info]: Verifying the page title
+2024-07-07T18:17:51.499Z [info]: Verifying "User" field is present
+2024-07-07T18:17:51.525Z [info]: Verifying "Password" field is present
+2024-07-07T18:17:51.551Z [info]: Verifying "Login" button is present
+2024-07-07T18:17:51.570Z [info]: Test Passed
+2024-07-07T18:17:52.411Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-07T18:17:52.412Z [info]: Navigating to the Login page
+2024-07-07T18:17:53.199Z [info]: Login to the application with valid credentials
+2024-07-07T18:17:53.498Z [info]: Verifying Login Success
+2024-07-07T18:17:53.525Z [info]: Login Success
+2024-07-07T18:17:53.526Z [info]: Test Passed
+2024-07-07T18:17:54.209Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-07T18:17:54.210Z [info]: Navigating to the Login page
+2024-07-07T18:17:55.054Z [info]: Entering Password
+2024-07-07T18:17:55.182Z [info]: Verifying that the password is masked
+2024-07-07T18:17:55.186Z [info]: Test Passed
+2024-07-07T18:19:46.634Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-07T18:19:46.646Z [info]: Navigating to the Login page
+2024-07-07T18:19:47.636Z [info]: Verifying the page title
+2024-07-07T18:19:47.805Z [info]: Verifying "User" field is present
+2024-07-07T18:19:47.827Z [info]: Verifying "Password" field is present
+2024-07-07T18:19:47.852Z [info]: Verifying "Login" button is present
+2024-07-07T18:19:47.871Z [info]: Test Passed
+2024-07-07T18:19:48.745Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-07T18:19:48.745Z [info]: Navigating to the Login page
+2024-07-07T18:19:49.544Z [info]: Login to the application with valid credentials
+2024-07-07T18:19:49.936Z [info]: Verifying Login Success
+2024-07-07T18:19:49.976Z [info]: Login Success
+2024-07-07T18:19:49.977Z [info]: Test Passed
+2024-07-07T18:19:51.044Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-07T18:19:51.046Z [info]: Navigating to the Login page
+2024-07-07T18:19:51.948Z [info]: Entering Password
+2024-07-07T18:19:52.090Z [info]: Verifying that the password is masked
+2024-07-07T18:19:52.095Z [info]: Test Passed
+2024-07-07T18:27:16.850Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T18:27:16.861Z [info]: Navigating to the Login page
+2024-07-07T18:27:18.138Z [info]: Login to the application with valid credentials
+2024-07-07T18:27:18.386Z [info]: Logout from the application
+2024-07-07T18:27:23.633Z [info]: Verifying Logout Success
+2024-07-07T18:27:23.666Z [info]: Test Passed
+2024-07-07T18:27:52.848Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-07T18:27:52.856Z [info]: Navigating to the Login page
+2024-07-07T18:27:53.852Z [info]: Login to the application with valid credentials
+2024-07-07T18:27:54.231Z [info]: Logout from the application
+2024-07-07T18:27:59.532Z [info]: Verifying Logout Success
+2024-07-07T18:27:59.673Z [info]: Test Passed
+2024-07-07T18:28:02.148Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-07T18:28:02.149Z [info]: Navigating to the Login page
+2024-07-07T18:28:02.876Z [info]: Verifying the page title
+2024-07-07T18:28:02.951Z [info]: Verifying "User" field is present
+2024-07-07T18:28:02.967Z [info]: Verifying "Password" field is present
+2024-07-07T18:28:02.988Z [info]: Verifying "Login" button is present
+2024-07-07T18:28:03.002Z [info]: Test Passed
+2024-07-07T18:28:03.589Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-07T18:28:03.589Z [info]: Navigating to the Login page
+2024-07-07T18:28:04.346Z [info]: Login to the application with valid credentials
+2024-07-07T18:28:04.602Z [info]: Verifying Login Success
+2024-07-07T18:28:04.618Z [info]: Login Success
+2024-07-07T18:28:04.619Z [info]: Test Passed
+2024-07-07T18:28:05.104Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-07T18:28:05.105Z [info]: Navigating to the Login page
+2024-07-07T18:28:06.024Z [info]: Entering Password
+2024-07-07T18:28:06.165Z [info]: Verifying that the password is masked
+2024-07-07T18:28:06.170Z [info]: Test Passed
+2024-07-07T18:28:07.090Z [info]: *** Running test : TC013 - Verify keyboard navigation on login page ***
+2024-07-07T18:28:07.091Z [info]: Navigating to the Login page
+2024-07-07T18:28:07.864Z [info]: Verifying keyboard navigation on login page
+2024-07-07T18:28:08.257Z [info]: Test Passed
+2024-07-07T18:28:08.809Z [info]: *** Running test : TC015 - Verify Valid login for user 'admin@admin.com' ***
+2024-07-07T18:28:08.810Z [info]: Navigating to the Login page
+2024-07-07T18:28:09.588Z [info]: Login to the application with valid credentials
+2024-07-07T18:28:09.846Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T18:28:09.870Z [info]: Login Success
+2024-07-07T18:28:09.871Z [info]: Test Passed
+2024-07-07T18:28:10.396Z [info]: *** Running test : TC015 - Verify Valid login for user 'biancunha@gmail.com' ***
+2024-07-07T18:28:10.396Z [info]: Navigating to the Login page
+2024-07-07T18:28:11.216Z [info]: Login to the application with valid credentials
+2024-07-07T18:28:11.530Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T18:28:11.558Z [info]: Login Success
+2024-07-07T18:28:11.560Z [info]: Test Passed
+2024-07-07T18:28:12.355Z [info]: *** Running test : TC015 - Verify Valid login for user 'growdev@growdev.com.br' ***
+2024-07-07T18:28:12.356Z [info]: Navigating to the Login page
+2024-07-07T18:28:13.145Z [info]: Login to the application with valid credentials
+2024-07-07T18:28:13.398Z [info]: Verifying that the user is redirected to the home page
+2024-07-07T18:28:13.415Z [info]: Login Success
+2024-07-07T18:28:13.416Z [info]: Test Passed
+2024-07-07T18:28:13.953Z [info]: *** Running test : TC016 - Verify login page load time ***
+2024-07-07T18:28:13.954Z [info]: Navigating to the Login page
+2024-07-07T18:28:14.794Z [info]: Verifying the performance by checking login page load time
+2024-07-07T18:28:14.799Z [info]: Test Passed

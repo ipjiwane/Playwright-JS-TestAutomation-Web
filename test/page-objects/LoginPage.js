@@ -1,5 +1,4 @@
 const { expect } = require('@playwright/test');
-const { HomePage } = require('./HomePage');
 const logger = require('../utils/logger')
 
 exports.LoginPage = class LoginPage {
@@ -22,8 +21,6 @@ exports.LoginPage = class LoginPage {
             await this.txtUsername.fill(username);
             await this.txtPassword.fill(password);
             await this.btnLogin.click();
-            const homePage = new HomePage(this.page);
-            return homePage;
         } catch (error) {
             logger.error(`Issue with Login: ${error.message}`);
             throw error;

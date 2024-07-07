@@ -1,6 +1,5 @@
 const { expect } = require('@playwright/test');
 const logger = require('../utils/logger');
-const { LoginPage } = require('./LoginPage');
 
 exports.HomePage = class HomePage {
     
@@ -40,8 +39,6 @@ exports.HomePage = class HomePage {
             await this.menuUser.click();
             await this.lnklogout.click();
             await this.page.waitForTimeout(5000);
-            // const loginPage = new LoginPage(this.page);
-            // return loginPage;
         } catch (error) {
             logger.error(`Issue with Logout: ${error.message}`);
             throw error;

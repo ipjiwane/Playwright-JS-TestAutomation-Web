@@ -1,9 +1,11 @@
-const { test, expect } = require('@playwright/test');
+const { test } = require('@playwright/test');
 const logger = require('../utils/logger')
 const { LoginPage } = require('../page-objects/LoginPage')
+const { HomePage } = require('../page-objects/HomePage')
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ page }, testInfo) => {
   try {
+    logger.info(`*** Running test : ${testInfo.title} ***`);
     logger.info("Navigating to the Login page");
     await page.goto('/');
   } catch (error) {
@@ -12,13 +14,21 @@ test.beforeEach(async ({ page }) => {
   }
 })
 
-test.fail('Verify the Home page menus', async ({ page }) => {
+test.fixme('TC001 - Verify the Home page menus', {
+  tag: ['@regression', '@smoke'],
+  annotation: {
+    type: 'issue',
+    description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/1',
+  },
+}, async ({ page }) => {
   const loginPage = new LoginPage(page);
+  const homePage = new HomePage(page);
   try {
     // Login to the application with valid credentials
     logger.info("Login to the application with valid credentials");
-    const homePage = await loginPage.login(process.env.email, process.env.password);
+    await loginPage.login(process.env.email, process.env.password);
 
+    // Verifying the home page menu options
     logger.info('Verifying the home page menu options')
     await homePage.verifyHomeMenuIsWorking();
     await homePage.verifyProductsMenuIsWorking();
@@ -30,21 +40,26 @@ test.fail('Verify the Home page menus', async ({ page }) => {
   }
 });
 
-test('Verify Logout functionality', async ({ page }) => {
-  const loginPage = new LoginPage(page);
-  try {
-    logger.info('Login to the application with valid credentials')
-    const homePage = await loginPage.login(process.env.email, process.env.password);
+test('TC002 - Verify Logout functionality', {
+  tag: ['@regression', '@smoke']
+} , async ({ page }) => {
+    const loginPage = new LoginPage(page);
+    const homePage = new HomePage(page);
+    try {
+      // Login to the application with valid credentials
+      logger.info('Login to the application with valid credentials')
+      await loginPage.login(process.env.email, process.env.password);
 
-    logger.info('Logout from the application')
-    await homePage.logout();
+      // Logout from the application
+      logger.info('Logout from the application')
+      await homePage.logout();
 
-    // Verify that the user is redirected to the login page
-    logger.info("Verifying Logout Success");
-    await loginPage.verifyLogoutSuccess();
-    logger.info('Test Passed')
-  } catch (error) {
-    logger.error(`Test failed with error: ${error.message}`);
-    throw error;
-  }
-});
+      // Verify that the user is redirected to the login page
+      logger.info("Verifying Logout Success");
+      await loginPage.verifyLogoutSuccess();
+      logger.info('Test Passed')
+    } catch (error) {
+      logger.error(`Test failed with error: ${error.message}`);
+      throw error;
+    }
+  });

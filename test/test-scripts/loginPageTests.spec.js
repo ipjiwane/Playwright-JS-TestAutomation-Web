@@ -1,10 +1,12 @@
 const { test, expect } = require('@playwright/test');
 const logger = require('../utils/logger')
 const users = require('../test-data/users.json');
-const { LoginPage } = require('../page-objects/LoginPage')
+const { LoginPage } = require('../page-objects/LoginPage');
+const { HomePage } = require('../page-objects/HomePage');
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ page }, testInfo) => {
   try {
+    logger.info(`*** Running test : ${testInfo.title} ***`);
     logger.info("Navigating to the Login page");
     await page.goto('/');
   } catch (error) {
@@ -13,9 +15,10 @@ test.beforeEach(async ({ page }) => {
   }
 })
 
-// Usability Tests
-test.describe('Login Page Usability Tests', () => {
-  test('TC001: Verify login page loads correctly', async ({ page }) => {
+test.describe('@usability: Login Page Usability Tests', () => {
+  test('TC001: Verify login page loads correctly', {
+    tag: ['@regression', '@smoke']
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       //verifying the page title
@@ -34,13 +37,15 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test('TC002: Verify Valid login', async ({ page }) => {
+  test('TC002: Verify Valid login', {
+    tag: ['@regression']
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
+    const homePage = new HomePage(page);
     try {
       // Login to the application with valid credentials
       logger.info("Login to the application with valid credentials");
-      const homePage = await loginPage.login(process.env.email, process.env.password);
-
+      await loginPage.login(process.env.email, process.env.password);
       // Verify that the user is redirected to the home page
       logger.info("Verifying Login Success");
       await homePage.verifyLoginSuccess();
@@ -51,7 +56,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC003: Verify Invalid login', async ({ page }) => {
+  test.fixme('TC003: Verify Invalid login', {
+    tag: ['@regression', '@smoke'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Login to the application with invalid credentials
@@ -68,7 +79,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC004 - Verify login with empty "User" and "Password" fields', async ({ page }) => {
+  test.fixme('TC004 - Verify login with empty "User" and "Password" fields', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Clicking login button with empty fields
@@ -85,7 +102,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC005 - Verify login with empty "User" field', async ({ page }) => {
+  test.fixme('TC005 - Verify login with empty "User" field', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with empty user field
@@ -102,7 +125,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC006 - Verify login with empty "Password" field', async ({ page }) => {
+  test.fixme('TC006 - Verify login with empty "Password" field', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with empty password field
@@ -119,7 +148,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC007 - Verify Case sensitivity in login', async ({ page }) => {
+  test.fixme('TC007 - Verify Case sensitivity in login', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting login with correct credentials but different case
@@ -136,7 +171,9 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test('TC008 - Verify Password masking on Login Page', async ({ page }) => {
+  test('TC008 - Verify Password masking on Login Page', {
+    tag: ['@regression', '@smoke']
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Entering password
@@ -153,7 +190,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC009 - Verify Show/Hide password on Login Page', async ({ page }) => {
+  test.fixme('TC009 - Verify Show/Hide password on Login Page', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/6',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Entering password
@@ -170,7 +213,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC010 - Verify the labels and placeholders of "User" and "Password" fields', async ({ page }) => {
+  test.fixme('TC010 - Verify the labels and placeholders of "User" and "Password" fields', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/5',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying the login page labels and placeholders
@@ -184,7 +233,13 @@ test.describe('Login Page Usability Tests', () => {
 
   });
 
-  test.fixme('TC011 - Verify the presence of "Forgot password" link', async ({ page }) => {
+  test.fixme('TC011 - Verify the presence of "Forgot password" link', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/4',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Verifying that "Forgot Password" Link is available on Login Page')
@@ -196,7 +251,13 @@ test.describe('Login Page Usability Tests', () => {
     }
   });
 
-  test.fixme('TC012 - Verify the presence of "Remember Me" checkbox', async ({ page }) => {
+  test.fixme('TC012 - Verify the presence of "Remember Me" checkbox', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/3',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Verifying that "Remember Me" checkbox is available on Login Page')
@@ -209,9 +270,10 @@ test.describe('Login Page Usability Tests', () => {
   });
 });
 
-// Accessibility Tests
-test.describe('Login Page Accessibility Tests', () => {
-  test('TC013 - Verify keyboard navigation on login page', async ({ page }) => {
+test.describe('@accessibility: Login Page Accessibility Tests', () => {
+  test('TC013 - Verify keyboard navigation on login page', {
+    tag: ['@regression']
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying keyboard navigation on login page
@@ -224,7 +286,13 @@ test.describe('Login Page Accessibility Tests', () => {
     }
   });
 
-  test.fixme('TC014 - Verify screen reader compatibility on login page', async ({ page }) => {
+  test.fixme('TC014 - Verify screen reader compatibility on login page', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/2',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Verifying screen reader compatibility on login page
@@ -238,15 +306,17 @@ test.describe('Login Page Accessibility Tests', () => {
   });
 });
 
-// Data driven Tests
-test.describe('Data Driven Login Test', () => {
+test.describe('@data-driven: Login Test with multiple users', {
+  tag: ['@regression']
+}, () => {
   for (const user of users) {
     test(`TC015 - Verify Valid login for user '${user.email}'`, async ({ page }) => {
       const loginPage = new LoginPage(page);
+      const homePage = new HomePage(page);
       try {
         // Login to the application with valid credentials
         logger.info("Login to the application with valid credentials");
-        const homePage = await loginPage.login(user.email, user.password);
+        await loginPage.login(user.email, user.password);
 
         // Verifying that the user is redirected to the home page
         logger.info("Verifying that the user is redirected to the home page");
@@ -260,9 +330,10 @@ test.describe('Data Driven Login Test', () => {
   }
 });
 
-// Performance Tests
-test.describe('Login Page Performance Tests', () => {
-  test('TC016 - Verify login page load time', async ({ page }) => {
+test.describe('@performance: Login Page Performance Tests', () => {
+  test('TC016 - Verify login page load time', {
+    tag: ['@regression', '@smoke']
+  }, async ({ page }) => {
     try {
       const startTime = Date.now();
       await page.goto('/');
@@ -279,9 +350,14 @@ test.describe('Login Page Performance Tests', () => {
   });
 });
 
-// Security Tests
-test.describe('Login Page Security Tests', () => {
-  test.fixme('TC017 - Verify SQL injection security breach on login page', async ({ page }) => {
+test.describe('@security: Login Page Security Tests', () => {
+  test.fixme('TC017 - Verify SQL injection security breach on login page', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       logger.info('Attempting SQL Injection while login')
@@ -297,7 +373,13 @@ test.describe('Login Page Security Tests', () => {
     }
   });
 
-  test.fixme('TC018 - Verify Brute Force Attack security breach on login page', async ({ page }) => {
+  test.fixme('TC018 - Verify Brute Force Attack security breach on login page', {
+    tag: ['@regression'],
+    annotation: {
+      type: 'issue',
+      description: 'https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web/issues/7',
+    },
+  }, async ({ page }) => {
     const loginPage = new LoginPage(page);
     try {
       // Attempting to login with invalid credentials multiple times
