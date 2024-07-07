@@ -1,5 +1,6 @@
 const { expect } = require('@playwright/test');
-const logger = require('../utils/logger')
+const logger = require('../utils/logger');
+const { ENVIRONMENT } = require('../config/environment');
 
 exports.LoginPage = class LoginPage {
 
@@ -47,11 +48,11 @@ exports.LoginPage = class LoginPage {
     async verifyKeyboardNavigation() {
         try {
             await this.txtUsername.focus();
-            await this.page.keyboard.type(process.env.email);
+            await this.page.keyboard.type(ENVIRONMENT.username);
             await this.page.keyboard.press('Tab');
     
             await expect(this.txtPassword).toBeFocused();
-            await this.page.keyboard.type(process.env.password);
+            await this.page.keyboard.type(ENVIRONMENT.password);
             await this.page.keyboard.press('Tab');
     
             await expect(this.btnLogin).toBeFocused();

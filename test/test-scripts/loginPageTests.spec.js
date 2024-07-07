@@ -202,7 +202,7 @@ test.describe('@usability: Login Page Usability Tests', () => {
     try {
       // Entering password
       logger.info("Entering Password");
-      await loginPage.enterPassword(process.env.password);
+      await loginPage.enterPassword(ENVIRONMENT.password);
 
       // Verifying that show/hide password toggle is present
       logger.info("Verifying that show/hide password toggle is present");
