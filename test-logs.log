@@ -2732,3 +2732,220 @@ Call log:
   [2m- expect.toHaveText with timeout 5000ms[22m
 [2m  - waiting for locator('div[id="error"]')[22m
 
+2024-07-08T07:09:50.519Z [info]: *** Running test : TC001 - Verify the Home page menus ***
+2024-07-08T07:09:50.529Z [info]: Navigating to the Login page
+2024-07-08T07:09:51.806Z [info]: Login to the application with valid credentials
+2024-07-08T07:09:52.240Z [info]: Verifying the home page menu options
+2024-07-08T07:09:52.306Z [error]: Test failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mnot[2m.[22mtoBeNull[2m()[22m
+
+Received: [31mnull[39m
+2024-07-08T07:09:53.876Z [info]: *** Running test : TC002 - Verify Logout functionality ***
+2024-07-08T07:09:53.877Z [info]: Navigating to the Login page
+2024-07-08T07:09:54.727Z [info]: Login to the application with valid credentials
+2024-07-08T07:09:55.037Z [info]: Logout from the application
+2024-07-08T07:09:55.283Z [info]: Verifying Logout Success
+2024-07-08T07:09:55.416Z [info]: Test Passed
+2024-07-08T07:09:56.148Z [info]: *** Running test : TC001: Verify login page loads correctly ***
+2024-07-08T07:09:56.149Z [info]: Navigating to the Login page
+2024-07-08T07:09:56.913Z [info]: Verifying the page title
+2024-07-08T07:09:57.046Z [info]: Verifying "User" field is present
+2024-07-08T07:09:57.064Z [info]: Verifying "Password" field is present
+2024-07-08T07:09:57.080Z [info]: Verifying "Login" button is present
+2024-07-08T07:09:57.103Z [info]: Test Passed
+2024-07-08T07:09:58.196Z [info]: *** Running test : TC002: Verify Valid login ***
+2024-07-08T07:09:58.197Z [info]: Navigating to the Login page
+2024-07-08T07:09:59.180Z [info]: Login to the application with valid credentials
+2024-07-08T07:09:59.636Z [info]: Verifying Login Success
+2024-07-08T07:09:59.664Z [info]: Login Success
+2024-07-08T07:09:59.665Z [info]: Test Passed
+2024-07-08T07:10:00.509Z [info]: *** Running test : TC003: Verify Invalid login ***
+2024-07-08T07:10:00.510Z [info]: Navigating to the Login page
+2024-07-08T07:10:01.319Z [info]: Login to the application with invalid credentials
+2024-07-08T07:10:01.637Z [info]: Verifying error message for invalid credentials
+2024-07-08T07:10:06.659Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:10:07.763Z [info]: *** Running test : TC004 - Verify login with empty "User" and "Password" fields ***
+2024-07-08T07:10:07.763Z [info]: Navigating to the Login page
+2024-07-08T07:10:08.449Z [info]: Clicking login button with empty fields
+2024-07-08T07:10:08.574Z [info]: Verifying error message for empty fields
+2024-07-08T07:10:13.585Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter username and password"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:10:15.361Z [info]: *** Running test : TC005 - Verify login with empty "User" field ***
+2024-07-08T07:10:15.362Z [info]: Navigating to the Login page
+2024-07-08T07:10:16.154Z [info]: Clicking login button with empty user field
+2024-07-08T07:10:16.414Z [info]: Verifying error message for empty user field
+2024-07-08T07:10:21.437Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter User"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:10:22.894Z [info]: *** Running test : TC006 - Verify login with empty "Password" field ***
+2024-07-08T07:10:22.895Z [info]: Navigating to the Login page
+2024-07-08T07:10:23.558Z [info]: Clicking login button with empty password field
+2024-07-08T07:10:23.721Z [info]: Verifying error message for empty password field
+2024-07-08T07:10:28.738Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Please enter Password"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:10:30.194Z [info]: *** Running test : TC007 - Verify Case sensitivity in login ***
+2024-07-08T07:10:30.194Z [info]: Navigating to the Login page
+2024-07-08T07:10:30.943Z [info]: Attempting login with correct credentials but different case
+2024-07-08T07:10:31.194Z [info]: Verifying error message for invalid credentials
+2024-07-08T07:10:36.210Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:10:37.371Z [info]: *** Running test : TC008 - Verify Password masking on Login Page ***
+2024-07-08T07:10:37.371Z [info]: Navigating to the Login page
+2024-07-08T07:10:38.141Z [info]: Entering Password
+2024-07-08T07:10:38.253Z [info]: Verifying that the password is masked
+2024-07-08T07:10:38.257Z [info]: Test Passed
+2024-07-08T07:10:38.906Z [info]: *** Running test : TC009 - Verify Show/Hide password on Login Page ***
+2024-07-08T07:10:38.906Z [info]: Navigating to the Login page
+2024-07-08T07:10:39.671Z [info]: Entering Password
+2024-07-08T07:10:39.796Z [info]: Verifying that show/hide password toggle is present
+2024-07-08T07:10:39.802Z [info]: Test Passed
+2024-07-08T07:10:40.440Z [info]: *** Running test : TC010 - Verify the labels and placeholders of "User" and "Password" fields ***
+2024-07-08T07:10:40.440Z [info]: Navigating to the Login page
+2024-07-08T07:10:41.198Z [info]: Verifying the login page labels and placeholders
+2024-07-08T07:10:41.345Z [error]: Encountered error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Password"[39m
+Received: [31mnull[39m
+2024-07-08T07:10:41.346Z [error]: Test failed with error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+Expected: [32m"Password"[39m
+Received: [31mnull[39m
+2024-07-08T07:10:42.018Z [info]: *** Running test : TC011 - Verify the presence of "Forgot password" link ***
+2024-07-08T07:10:42.019Z [info]: Navigating to the Login page
+2024-07-08T07:10:42.700Z [info]: Verifying that "Forgot Password" Link is available on Login Page
+2024-07-08T07:10:47.705Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('#forgot_password_link')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 5000ms[22m
+[2m  - waiting for locator('#forgot_password_link')[22m
+
+2024-07-08T07:10:48.296Z [info]: *** Running test : TC012 - Verify the presence of "Remember Me" checkbox ***
+2024-07-08T07:10:48.297Z [info]: Navigating to the Login page
+2024-07-08T07:10:49.090Z [info]: Verifying that "Remember Me" checkbox is available on Login Page
+2024-07-08T07:10:54.104Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('input[name="rememberMe"]')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 5000ms[22m
+[2m  - waiting for locator('input[name="rememberMe"]')[22m
+
+2024-07-08T07:10:54.701Z [info]: *** Running test : TC013 - Verify keyboard navigation on login page ***
+2024-07-08T07:10:54.701Z [info]: Navigating to the Login page
+2024-07-08T07:10:55.570Z [info]: Verifying keyboard navigation on login page
+2024-07-08T07:10:55.997Z [info]: Test Passed
+2024-07-08T07:10:56.530Z [info]: *** Running test : TC014 - Verify screen reader compatibility on login page ***
+2024-07-08T07:10:56.531Z [info]: Navigating to the Login page
+2024-07-08T07:10:57.289Z [info]: Verifying screen reader compatibility on login page
+2024-07-08T07:10:57.289Z [info]: Checking ARIA related labels and roles to check screen reader compatibility
+2024-07-08T07:11:02.297Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveAttribute[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: getByPlaceholder('E-mail address')
+Expected string: [32m"Email"[39m
+Received string: [31m""[39m
+Call log:
+  [2m- expect.toHaveAttribute with timeout 5000ms[22m
+[2m  - waiting for getByPlaceholder('E-mail address')[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+[2m  -   locator resolved to <input id="email" type="text" name="email" autofocus="" placeholder="E-mail address"/>[22m
+[2m  -   unexpected value "null"[22m
+
+2024-07-08T07:11:02.864Z [info]: *** Running test : TC015 - Verify Valid login for user 'admin@admin.com' ***
+2024-07-08T07:11:02.865Z [info]: Navigating to the Login page
+2024-07-08T07:11:03.689Z [info]: Login to the application with valid credentials
+2024-07-08T07:11:03.997Z [info]: Verifying that the user is redirected to the home page
+2024-07-08T07:11:04.022Z [info]: Login Success
+2024-07-08T07:11:04.024Z [info]: Test Passed
+2024-07-08T07:11:04.570Z [info]: *** Running test : TC015 - Verify Valid login for user 'biancunha@gmail.com' ***
+2024-07-08T07:11:04.570Z [info]: Navigating to the Login page
+2024-07-08T07:11:05.329Z [info]: Login to the application with valid credentials
+2024-07-08T07:11:05.577Z [info]: Verifying that the user is redirected to the home page
+2024-07-08T07:11:05.594Z [info]: Login Success
+2024-07-08T07:11:05.594Z [info]: Test Passed
+2024-07-08T07:11:06.062Z [info]: *** Running test : TC015 - Verify Valid login for user 'growdev@growdev.com.br' ***
+2024-07-08T07:11:06.062Z [info]: Navigating to the Login page
+2024-07-08T07:11:06.817Z [info]: Login to the application with valid credentials
+2024-07-08T07:11:07.077Z [info]: Verifying that the user is redirected to the home page
+2024-07-08T07:11:07.095Z [info]: Login Success
+2024-07-08T07:11:07.096Z [info]: Test Passed
+2024-07-08T07:11:07.572Z [info]: *** Running test : TC016 - Verify login page load time ***
+2024-07-08T07:11:07.572Z [info]: Navigating to the Login page
+2024-07-08T07:11:08.395Z [info]: Verifying the performance by checking login page load time
+2024-07-08T07:11:08.399Z [info]: Test Passed
+2024-07-08T07:11:09.049Z [info]: *** Running test : TC017 - Verify SQL injection security breach on login page ***
+2024-07-08T07:11:09.049Z [info]: Navigating to the Login page
+2024-07-08T07:11:09.780Z [info]: Attempting SQL Injection while login
+2024-07-08T07:11:10.013Z [info]: Verifying that an error message is displayed
+2024-07-08T07:11:15.028Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Invalid credentials"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+
+2024-07-08T07:11:16.900Z [info]: *** Running test : TC018 - Verify Brute Force Attack security breach on login page ***
+2024-07-08T07:11:16.900Z [info]: Navigating to the Login page
+2024-07-08T07:11:17.739Z [info]: Attempting to login with invalid credentials multiple times
+2024-07-08T07:11:28.575Z [info]: Verifying that an error message is displayed
+2024-07-08T07:11:33.592Z [error]: Test failed with error: [31mTimed out 5000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m
+
+Locator: locator('div[id="error"]')
+Expected string: [32m"Multiple failed login attempts. Your account has been locked"[39m
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toHaveText with timeout 5000ms[22m
+[2m  - waiting for locator('div[id="error"]')[22m
+

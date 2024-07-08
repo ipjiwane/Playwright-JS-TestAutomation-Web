@@ -7,17 +7,18 @@ const path = require('path');
  * https://github.com/motdotla/dotenv
  */
 // require('dotenv').config({ path: path.resolve(__dirname, '/test/.env') });
-if (!process.env.ENV){
+if (!process.env.ENV) {
   require('dotenv').config({ path: path.resolve('test/config', 'qa.env') });
 } else {
-  require('dotenv').config({ path: path.resolve('test/config', `${(process.env.ENV).toLowerCase()}.env`) });
+  require('dotenv').config({
+    path: path.resolve('test/config', `${process.env.ENV.toLowerCase()}.env`),
+  });
 }
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
 module.exports = defineConfig({
-  
   testDir: './test/test-scripts',
 
   /* Run tests in files in parallel */
@@ -33,7 +34,9 @@ module.exports = defineConfig({
   workers: process.env.CI ? 1 : 1,
 
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: process.env.CI ? [['html'],['allure-playwright']] : [['html'],['allure-playwright']],
+  reporter: process.env.CI
+    ? [['html'], ['allure-playwright']]
+    : [['html'], ['allure-playwright']],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -43,7 +46,7 @@ module.exports = defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
-    video: 'retain-on-failure'
+    video: 'retain-on-failure',
   },
 
   /* Configure projects for major browsers */
@@ -91,4 +94,3 @@ module.exports = defineConfig({
     reuseExistingServer: !process.env.CI,
   },
 });
-
