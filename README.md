@@ -10,6 +10,7 @@
 - [Test Scenarios](#test-scenarios)
 - [Running the Tests](#running-the-tests)
 - [View Report](#view-report)
+- [Code Formatting and Pre-commit Hooks](#code-formatting-and-pre-commit-hooks)
 - [Github CI](#github-ci)
 
 ## Introduction
@@ -45,7 +46,7 @@ test/
     dev.env
     qa.env
     staging.env
-    environment.env
+    environment.js
   page-objects/
     HomePage.js
     LoginPage.js
@@ -77,7 +78,7 @@ The project includes various environment configurations stored in the `test/conf
 - `dev.env`
 - `qa.env`
 - `staging.env`
-- `environment.env`
+- `environment.js`
 
 These files contain environment-specific variables that can be used to configure test settings for different environments. You can set the environment by specifying the `ENV` variable before running the tests:
 
@@ -121,6 +122,12 @@ npx playwright show-report
 ```
 
 This will open an HTML report in your default browser, providing detailed information on the test execution.
+
+The project also uses Allure reporting that provides detailed and visually appealing reports.
+
+## Code Formatting and Pre-commit Hooks
+
+To maintain code quality and consistency, the project uses Prettier for code formatting and Husky for pre-commit hooks.
 
 ## GitHub CI
 
