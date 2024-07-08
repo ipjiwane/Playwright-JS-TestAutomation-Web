@@ -1,16 +1,113 @@
-# Test assignment
-We are looking for Automation Engineers that have the mindset "only the sky is the limit"
-and "automation doesn't stop at testing, it's just a beginning!" ;)
+# Playwright and JavaScript Test Automation Project
 
-The purpose of this test assignment is to assess the applicant's automation skills, allowing him/her to show the best they can do and how fast they can learn.
-It is an open assignment. There is no the right answer and there is no end goal other than proving yourself. Surprise us!
+## Table of Contents
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Folder Structure](#folder-structure)
+- [Environment Variables](#environment-variables)
+- [Test Scenarios](#test-scenarios)
+- [Running the Tests](#running-the-tests)
+- [View Report](#view-report)
+- [Github CI](#github-ci)
 
-Make sure that you give detailed comments or descriptions of your tests.
-When the assignment is complete, please push your solution to Github(Gitlab) and send us the link.
-If you have any questions, please contact us back.
+## Introduction
+This project leverages Playwright and JavaScript to automate the testing of a web application. The project is structured to include page objects, test scripts, configuration files, test data, and more, to ensure a clean and scalable testing framework.
 
-Good luck!
+## Prerequisites
+- Node.js (>= 12.x)
+- npm (>= 6.x)
 
-PS. We don't expect you to spend weeks (and sleepless nights) on doing it. Lets see how far you can get in 6-10 hours. We want to see how you approach and solve problems.
+Ensure you have Node.js and npm installed on your machine. You can download Node.js from [nodejs.org](https://nodejs.org/).
 
-And you will find the users to login in users.js.
+## Installation
+To set up the project, clone the repository and install the necessary dependencies:
+
+```sh
+git clone https://github.com/ipjiwane/Playwright-JS-TestAutomation-Web.git
+cd Playwright-JS-TestAutomation-Web
+npm install
+```
+## Folder Structure
+```
+.github/
+  workflows/
+    playwright.yml
+node_modules/
+test/
+  config/
+    dev.env
+    qa.env
+    staging.env
+    environment.env
+  page-objects/
+    HomePage.js
+    LoginPage.js
+  test-cases/
+    TC_HomePage.md
+    TC_LoginPage.md
+  test-data/
+    users.json
+  test-scripts/
+    homePageTests.spec.js
+    loginPageTests.spec.js
+  user-stories/
+    HomePageFeature.md
+    LoginPageFeatue.md
+  utils/
+    logger.js
+package.json
+playwright.config.js
+test-logs.log
+
+```
+
+This structure ensures an organized and modular approach to test automation, making it easier to manage and scale.
+
+## Environment Variables
+The project includes various environment configurations stored in the `test/config` directory:
+
+- `dev.env`
+- `qa.env`
+- `staging.env`
+- `environment.env`
+
+These files contain environment-specific variables that can be used to configure test settings for different environments. You can set the environment by specifying the `ENV` variable before running the tests:
+
+## Test Scenarios
+Test scenarios are documented in the `test/test-cases` directory:
+
+- `TC_HomePage.md`: Test cases for Home Page
+- `TC_LoginPage.md`: Test cases for Login Page
+
+User stories related to these test cases are located in the `test/user-stories` directory:
+
+- `HomePageFeature.md`
+- `LoginPageFeature.md`
+
+## Running the Tests
+To execute the tests, you can run the following command:
+
+```sh
+npx playwright test 
+```
+OR
+```sh
+npm test
+```
+
+This command will run all the test scripts defined in the `test/test-scripts` directory:
+
+- `homePageTests.spec.js`
+- `loginPageTests.spec.js`
+
+## View Report
+After running the tests, a report will be generated that you can view to see the test results. To view the report, use the following command:
+
+```sh
+npx playwright show-report
+```
+This will open an HTML report in your default browser, providing detailed information on the test execution.
+
+## GitHub CI
+This project includes a GitHub Actions workflow to automate testing. The workflow file is located at .github/workflows/playwright.yml.
