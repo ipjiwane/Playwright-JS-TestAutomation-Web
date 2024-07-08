@@ -1,0 +1,4 @@
+# Ignore artifacts:
+css
+js
+index.html
